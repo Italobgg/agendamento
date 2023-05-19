@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #FFD966;
+}
+
+.principal {
+    background: #FFF2CC;
+    position: absolute;
+    width: 324px;
+    height: 720px;
+    left: calc(50% - 324px/2);
+    top: calc(50% - 720px/2 + 0.5px);
+    border-radius: 20px;
+}
+
+.topo {
+    background-color: red;
+}
