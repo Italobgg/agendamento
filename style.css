@@ -23,7 +23,7 @@ body {
     border-radius: 20px;
 }
 
-.topo {
+.titulo {
     position: absolute;
     width: 324px;
     height: 70px;
@@ -43,12 +43,93 @@ body {
 }
 
 .logoE {
-    color: #FAAB78
-    ;
+    color: #FAAB78;
 }
 
 .subtitulo {
     color: #FAAB78;
     font-size: 35px;
 
+}
+
+.opcoes {}
+
+.marcar-horario {
+    position: absolute;
+    width: 285px;
+    height: 82px;
+    left: 17px;
+    top: 212px;
+
+    background: #F4B183;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    border-radius: 10px;
+}
+
+.procedimentos {
+    position: absolute;
+    width: 285px;
+    height: 82px;
+    left: 17px;
+    top: 344px;
+
+    background: #F4B183;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    border-radius: 10px;
+}
+
+.portfolio {
+    position: absolute;
+    width: 285px;
+    height: 82px;
+    left: 17px;
+    top: 476px;
+
+    background: #F4B183;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    border-radius: 10px;
+}
+
+.zap {
+    position: absolute;
+    width: 82px;
+    height: 83px;
+    left: 220px;
+    top: 600px;
+
+    background: #F4B183;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    border-radius: 10px;
+}
+
+
+
+/* Icon 2 */
+
+
+.insta {
+    position: absolute;
+    width: 82px;
+    height: 83px;
+    left: 120px;
+    top: 600px;
+
+    background: #F4B183;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    border-radius: 10px;
+}
+
+
+/* Icon 1 */
+
+.face {
+    position: absolute;
+    width: 82px;
+    height: 83px;
+    left: 20px;
+    top: 600px;
+
+    background: #F4B183;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    border-radius: 10px;
 }
