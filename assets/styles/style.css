@@ -39,7 +39,7 @@ body {
 
 .logo {
     color: #93BFCF;
-    font-size: 40px;
+    font-size: 3em;
 }
 
 .logoE {
@@ -52,7 +52,9 @@ body {
 
 }
 
-.opcoes {}
+.opcoes {
+    font-size: 2em;
+}
 
 .marcar-horario {
     position: absolute;
@@ -64,6 +66,10 @@ body {
     background: #F4B183;
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
+}
+.marcar-horario:hover {
+    transition: background-color 0.3s ease;
+    background: #E7803B;
 }
 
 .procedimentos {
@@ -77,6 +83,10 @@ body {
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
+.procedimentos:hover {
+    transition: background-color 0.3s ease;
+    background: #E7803B;
+}
 
 .portfolio {
     position: absolute;
@@ -89,23 +99,27 @@ body {
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
+.portfolio:hover {
+    transition: background-color 0.3s ease;
+    background: #E7803B;
+}
 
 .zap {
     position: absolute;
     width: 82px;
     height: 83px;
-    left: 220px;
+    left: 20px;
     top: 600px;
-
+    font-size: 50px;
     background: #F4B183;
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
-
-
-
-/* Icon 2 */
-
+.zap:hover {
+    transition: background-color 0.3s ease;
+    background: #FFF2CC;
+    color: #2dcf2d;
+}
 
 .insta {
     position: absolute;
@@ -113,23 +127,30 @@ body {
     height: 83px;
     left: 120px;
     top: 600px;
-
+    font-size: 50px;
     background: #F4B183;
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
-
-
-/* Icon 1 */
+.insta:hover {
+    transition: background-color 0.3s ease;
+    background: #FFF2CC;
+    color: #c82858;
+}
 
 .face {
     position: absolute;
     width: 82px;
     height: 83px;
-    left: 20px;
+    left: 220px;
     top: 600px;
-
+    font-size: 50px;
     background: #F4B183;
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
+}
+.face:hover {
+    transition: background-color 0.3s ease;
+    background: #FFF2CC;
+    color: #4862f4;
 }
