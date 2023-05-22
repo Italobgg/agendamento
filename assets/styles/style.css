@@ -135,12 +135,12 @@ body {
 }
 
 .procedimentos-form {
-    width: 250px;
+    width: 245px;
     background-color: #F4B183;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    margin: 100px auto;
 }
 
 .form {
@@ -149,7 +149,6 @@ body {
     gap: 20px;
   }
 
-  /* Estilos para os campos de entrada */
 .form input,
 .form select {
   padding: 10px;
