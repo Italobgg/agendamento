@@ -10,18 +10,35 @@
 </head>
 
 <body>
-    <main class="principal">
+    <main class="principal-agendamento">
 
         <div class="titulo">
             <h1 class="logo">Sol <span class="logoE">&</span> Mar</h1>
             <h2 class="subtitulo">Bem-vindo</h2>
         </div>
 
-        <div class="data">
-            <div class="dataa">
-                <input class="dataaa" type="date">
-            </div>
+        <div class="procedimentos-form">
+            <form class="form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Mome" required>
 
+                <label for="celular">Número de Celular:</label>
+                <input type="tel" id="celular" name="celular" placeholder="Celular (16) 00000-0000" required>
+
+                <label for="procedimento">Procedimento:</label>
+                <select id="procedimento" name="procedimento" required>
+                    <option value="">Selecione um procedimento</option>
+                    <option value="procedimento1">Procedimento 1</option>
+                    <option value="procedimento2">Procedimento 2</option>
+                    <option value="procedimento3">Procedimento 3</option>
+                    <!-- Adicione mais opções conforme necessário -->
+                </select>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+
+                <button type="submit">Agendar</button>
+            </form>
         </div>
 
     </main>

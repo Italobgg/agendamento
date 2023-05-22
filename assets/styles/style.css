@@ -67,10 +67,12 @@ body {
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
+
 .marcar-horario:hover {
     transition: background-color 0.3s ease;
     background: #E7803B;
 }
+
 #calendar {
     max-width: 800px;
     margin: 0 auto;
@@ -91,6 +93,7 @@ body {
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
+
 .procedimentos:hover {
     transition: background-color 0.3s ease;
     background: #E7803B;
@@ -107,9 +110,39 @@ body {
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
+
 .portfolio:hover {
     transition: background-color 0.3s ease;
     background: #E7803B;
+}
+
+.principal-agendamento {
+    background: #FFF2CC;
+    position: absolute;
+    width: 324px;
+    height: 720px;
+    left: calc(50% - 324px/2);
+    top: calc(50% - 720px/2 + 0.5px);
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.procedimentos-form {
+    width: 320px;
+    background-color: #F4B183;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Adicionado */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
 
 .zap {
@@ -123,6 +156,7 @@ body {
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
+
 .zap:hover {
     transition: background-color 0.3s ease;
     background: #FFF2CC;
@@ -140,6 +174,7 @@ body {
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
+
 .insta:hover {
     transition: background-color 0.3s ease;
     background: #FFF2CC;
@@ -157,6 +192,7 @@ body {
     box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
     border-radius: 10px;
 }
+
 .face:hover {
     transition: background-color 0.3s ease;
     background: #FFF2CC;
