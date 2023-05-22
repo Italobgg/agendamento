@@ -18,14 +18,17 @@
         </div>
 
         <div class="procedimentos-form">
+            <h1 class="procedimentos-titulo">
+                <h1 class="procedimentos-h1">Preencha para fazer seu agendamento:</h1>
+            </h1>
             <form class="form">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Mome" required>
+                <label hidden for="nome" >Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
 
-                <label for="celular">Número de Celular:</label>
+                <label  hidden for="celular">Número de Celular:</label>
                 <input type="tel" id="celular" name="celular" placeholder="Celular (16) 00000-0000" required>
 
-                <label for="procedimento">Procedimento:</label>
+                <label hidden for="procedimento">Procedimento:</label>
                 <select id="procedimento" name="procedimento" required>
                     <option value="">Selecione um procedimento</option>
                     <option value="procedimento1">Procedimento 1</option>
@@ -34,7 +37,7 @@
                     <!-- Adicione mais opções conforme necessário -->
                 </select>
 
-                <label for="data">Data:</label>
+                <label hidden for="data">Data:</label>
                 <input type="date" id="data" name="data" required>
 
                 <button type="submit">Agendar</button>

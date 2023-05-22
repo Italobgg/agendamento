@@ -23,6 +23,21 @@ body {
     border-radius: 20px;
 }
 
+.principal-agendamento {
+    background: #FFF2CC;
+    position: absolute;
+    width: 324px;
+    height: 720px;
+    left: calc(50% - 324px/2);
+    top: calc(50% - 720px/2 + 0.5px);
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .titulo {
     position: absolute;
     width: 324px;
@@ -73,15 +88,6 @@ body {
     background: #E7803B;
 }
 
-#calendar {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .procedimentos {
     position: absolute;
     width: 285px;
@@ -116,34 +122,73 @@ body {
     background: #E7803B;
 }
 
-.principal-agendamento {
-    background: #FFF2CC;
-    position: absolute;
-    width: 324px;
-    height: 720px;
+.procedimentos-h1 {
+    height: 70px;
     left: calc(50% - 324px/2);
-    top: calc(50% - 720px/2 + 0.5px);
-    border-radius: 20px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 25px;
 }
 
-
 .procedimentos-form {
-    width: 320px;
+    width: 250px;
     background-color: #F4B183;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 0 auto; /* Adicionado */
+    margin: 0 auto;
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Estilos para os campos de entrada */
+.form input,
+.form select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.form button[type="submit"] {
+    padding: 10px 20px;
+    border: solid 0px #4e4a4a;
+    border-radius: 5px;
+    background-color: #93BFCF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+.form button[type="submit"]:hover {
+    transition: background-color 0.3s ease;
+    background-color: #a7e6fd;
+  }
+
+  /* Estilo para as labels */
+.form label {
+    font-weight: bold;
+  }
+
+  /* Estilo para as mensagens de erro */
+.form .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Espaçamento entre o formulário e os demais elementos */
+  .procedimentos-form {
+    margin-top: 140px;
+  }
 
 .zap {
     position: absolute;
