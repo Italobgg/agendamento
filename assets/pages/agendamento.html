@@ -14,15 +14,17 @@
     <main class="principal-agendamento">
 
         <div class="titulo">
-            <h1 class="logo">Sol <span class="logoE">&</span> Mar</h1>
-            <h2 class="subtitulo">Bem-vindo</h2>
+            <a href="../../index.html">
+                <h1 class="logo">Sol <span class="logoE">&</span> Mar</h1>
+                <h2 class="subtitulo">Bem-vindo</h2>
+            </a>
         </div>
 
         <div class="procedimentos-form">
             <h1 class="procedimentos-titulo">
                 <h1 class="procedimentos-h1">Preencha para fazer seu agendamento:</h1>
             </h1>
-            <form class="form">
+            <form class="form" onsubmit="agendamentoConcluido(event)">
                 <label hidden for="nome" >Nome:</label>
                 <input type="text" id="nome" name="nome" placeholder="Nome" required>
 
@@ -35,7 +37,6 @@
                     <option value="procedimento1">Maquigem simples</option>
                     <option value="procedimento2">Maquiagem Casamento</option>
                     <option value="procedimento3">Maquiagem aniversário de 15 anos</option>
-                    <!-- Adicione mais opções conforme necessário -->
                 </select>
 
                 <label hidden for="data">Data:</label>
@@ -73,6 +74,8 @@
         </div>
 
     </main>
+
+    <script src="../script/agendamentoConcluido.js"></script>
 </body>
 
 </html>
