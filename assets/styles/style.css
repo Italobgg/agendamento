@@ -32,7 +32,7 @@ body {
     left: calc(50% - 324px/2);
     top: calc(50% - 720px/2 + 0.5px);
     border-radius: 20px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,6 +66,23 @@ body {
     color: #FAAB78;
     font-size: 35px;
 
+}
+
+.voltar {
+    position: absolute;
+    width: 49px;
+    height: 47px;
+    left: 250px;
+    top: 10px;
+    border-radius: 10px;
+
+    background: #F4B183;
+    box-shadow: 4px 4px 3px rgba(90, 69, 53, 0.95);
+}
+
+.voltar:hover {
+    transition: background-color 0.3s ease;
+    background: #E7803B;
 }
 
 .opcoes {
@@ -102,6 +119,35 @@ body {
 }
 
 .procedimentos:hover {
+    transition: background-color 0.3s ease;
+    background: #E7803B;
+}
+
+.pagamento {
+    position: absolute;
+    width: 285px;
+    height: 220px;
+    left: 17px;
+    top: 200px;
+
+    background: #83f485;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    border-radius: 10px;
+}
+
+.pagamento-voltar {
+    position: absolute;
+    width: 285px;
+    height: 100px;
+    left: 17px;
+    top: 450px;
+
+    background: #F4B183;
+    box-shadow: 5px 5px 4px rgba(90, 69, 53, 0.95);
+    border-radius: 10px;
+}
+
+.pagamento-voltar:hover {
     transition: background-color 0.3s ease;
     background: #E7803B;
 }
@@ -148,15 +194,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
+}
 
 .form input,
 .form select {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .form button[type="submit"] {
@@ -166,29 +212,29 @@ body {
     background-color: #93BFCF;
     font-weight: bold;
     cursor: pointer;
-  }
+}
 
 .form button[type="submit"]:hover {
     transition: background-color 0.3s ease;
     background-color: #a7e6fd;
-  }
+}
 
-  /* Estilo para as labels */
+/* Estilo para as labels */
 .form label {
     font-weight: bold;
-  }
+}
 
-  /* Estilo para as mensagens de erro */
+/* Estilo para as mensagens de erro */
 .form .error-message {
     color: red;
     font-size: 14px;
     margin-top: 5px;
-  }
-  
-  /* Espaçamento entre o formulário e os demais elementos */
-  .procedimentos-form {
+}
+
+/* Espaçamento entre o formulário e os demais elementos */
+.procedimentos-form {
     margin-top: 140px;
-  }
+}
 
 .zap {
     position: absolute;
